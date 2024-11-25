@@ -1,0 +1,26 @@
+body {
+    background-color: #ffdddf;
+}
+
+.nav{
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #fdfed6;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #449014;
+}
+
+h2 {
+    color: #449014;
+}
+
+
+.about-me-container {
+    display: grid;
+      grid-template-columns: 3fr 3fr;
+      gap: 2em;
+      margin-bottom: 2em;
+  }
+
