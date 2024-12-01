@@ -10,12 +10,24 @@ body {
     align-items: center;
     justify-content: space-between;
     color: #449014;
+    border-radius: 50px;
+    height: 20px;  
+    top: 20%;
+    
 }
 
 h2 {
     color: #449014;
+    
 }
 
+h1 {
+    color: #449014;
+}
+
+p {
+    color: #449014;
+}
 
 .about-me-container {
     display: grid;
@@ -24,3 +36,51 @@ h2 {
       margin-bottom: 2em;
   }
 
+  .about-me-info {
+    h2 {
+        text-align: center;
+    }
+    padding: 10%;
+  }
+
+  .about-me-info img {
+    display: block;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+
+/* gallery style sheet */
+.img-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:center;
+    
+}
+
+.img-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-holder .item {
+    flex-grow: 0;
+    width: 15%;
+    margin: 20px;
+    
+} 
+
+.img-holder img {
+    height: 120px;
+    width: 100%;
+}
+
+.caption {
+    text-align: center;
+}
