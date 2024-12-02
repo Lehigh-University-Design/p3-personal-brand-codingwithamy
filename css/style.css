@@ -2,7 +2,7 @@
 body {
     background-color: #ffdddf;
     font-size: 16px;
-    font-family: caprasimo-regular;
+    font-family: Caprasimo;
 }
 
 .nav{
@@ -21,6 +21,13 @@ body {
         text-decoration: none;
         color: #449014;
       }
+    font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: color(#449014 red green blue)
+    border-bottom: 3px solid var(#449014);
 }
 
 .caprasimo-regular {
@@ -28,6 +35,31 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+
+.carlito-regular {
+    font-family: "Carlito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.carlito-bold {
+    font-family: "Carlito", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.carlito-regular-italic {
+    font-family: "Carlito", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.carlito-bold-italic {
+    font-family: "Carlito", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
 
 h2 {
     color: #449014;
@@ -41,6 +73,7 @@ h1 {
 
 p {
     color: #449014;
+    font-family: carlito;
 }
 
 .about-me-container {
@@ -48,9 +81,10 @@ p {
     grid-template-columns: 3fr 3fr;
     gap: 2em;
     margin-bottom: 2em;
+    
   }
 
-  .about-me-info {
+.about-me-info {
     animation: autoShowAnimation both; 
     animation-timeline: view(70% 5%);
     h2 {
@@ -58,7 +92,7 @@ p {
     }
     padding: 10%;
   }
-  @keyframes autoShowAnimation{
+    @keyframes autoShowAnimation{
     from{
         opacity: 0;
         transform: translateY(200px) scale(0.3);
@@ -68,7 +102,7 @@ p {
     }
   }
 
-  .about-me-info img {
+.about-me-info img {
     display: block;
     width: 50%;
     height: auto;
@@ -77,7 +111,7 @@ p {
     text-align: center;
   }
 
-  .life-info {
+.life-info {
     animation: autoShowAnimation both; 
     animation-timeline: view(70% 5%);
 
