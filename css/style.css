@@ -1,9 +1,12 @@
 /* P3: Personal Branding */
 body {
     background-color: #ffdddf;
+    font-size: 16px;
+    font-family: caprasimo-regular;
 }
 
 .nav{
+    margin-top: 2em;
     padding-left: 3em;
     padding-right: 3em;
     background-color: #fdfed6;
@@ -20,6 +23,12 @@ body {
       }
 }
 
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 h2 {
     color: #449014;
     
@@ -27,6 +36,7 @@ h2 {
 
 h1 {
     color: #449014;
+    font-size: 2.5em;
 }
 
 p {
