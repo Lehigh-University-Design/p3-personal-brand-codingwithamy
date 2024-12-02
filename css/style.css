@@ -123,6 +123,20 @@ p {
     background-size: contain;       
   }
 
+  .day-holder {
+    display: flex;
+    align-content: center;
+    justify-content:center; 
+  }
+
+  .day-inner {
+    background: url("../images/bubble\ background.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 3em 5em;
+      width: 60%;
+      
+  }
+
   @keyframes autoShowAnimation{
     from{
         opacity: 0;
@@ -137,15 +151,17 @@ p {
 /* gallery style sheet */
 .img-holder {
     display: flex;
-    flex-wrap: wrap;
     align-content: center;
-    justify-content:center;
-    background: url("/images/bubble\ background.png");  
+    justify-content:center; 
 }
 
 .img-row {
+  background: url("../images/bubble\ background.png") no-repeat;
+  background-size: 100% 95%;
+  padding: 3em 0;
+  flex-wrap: wrap;
     display: flex;
-    width: 100%;
+    width: 60%;
     justify-content: center;
     align-content: center;
     
@@ -153,7 +169,7 @@ p {
 
 .img-holder .item {
     flex-grow: 0;
-    width: 15%;
+    width: 25%;
     margin: 20px;
 } 
 
