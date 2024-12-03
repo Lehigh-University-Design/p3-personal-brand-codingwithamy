@@ -131,13 +131,14 @@ p {
     display: flex;
     align-content: center;
     justify-content:center; 
+    
   }
 
   .day-inner {
     background: url("../images/bubble\ background.png") no-repeat;
     background-size: 100% 100%;
     padding: 3em 5em;
-      width: 60%;
+    
       
   }
 
@@ -265,5 +266,10 @@ img:hover {
 }
 
 .caption {
+    text-align: center;
+}
+
+.social {
+    margin: 5%;
     text-align: center;
 }
