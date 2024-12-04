@@ -296,9 +296,10 @@ img:hover {
 }
 
 .banner .slider{
+  margin-top: 3%;
   position: absolute;
   width: 200px;
-  height: 250px;
+  height: 210px;
   top: 10%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
